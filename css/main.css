@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -201,6 +200,7 @@ button {
   width : 960px;
   height: 240px ;
   text-align: center;
+  margin: 93px auto;
   }
 
 .full-width {
