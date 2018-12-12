@@ -36,6 +36,7 @@ h1 {
   margin: 25px 0;
   font-size: 6.4em;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -43,6 +44,7 @@ h2 {
   font-size: 64px;
   font-weight: 200;
   text-align: left ;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -50,26 +52,31 @@ h3 {
   font-size: 2.6em;
   font-weight: 200;
   text-align: left ;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
   margin: 20px 0;
   font-size: 1.6em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h5 {
   margin: 20px 0;
   font-size: 1.6em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h6 {
   margin: 15px 0;
   font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a, button {
@@ -97,6 +104,7 @@ button {
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
+  text-align: center;
 }
 
 .text-container {
