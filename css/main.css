@@ -42,12 +42,14 @@ h2 {
   margin: 25px 0;
   font-size: 64px;
   font-weight: 200;
+  text-align: left ;
 }
 
 h3 {
   margin: 25px 0;
   font-size: 2.6em;
   font-weight: 200;
+  text-align: left ;
 }
 
 h4 {
@@ -168,7 +170,7 @@ button {
 }
 
 .align-center {
-  text-align: center;
+  text-align: left;
 }
 
 .align-right {
@@ -180,7 +182,7 @@ button {
 }
 
 .align-justify.align-center {
-  text-align-last: center;
+  text-align-last: left;
 }
 
 /**
