@@ -503,17 +503,14 @@ button {
 * index
 */
 
-
-
 .index-title {
   text-align: center;
   margin-bottom: 35px;
 }
 
-
-
-
-
+/**
+* conseils-de-lecture
+*/
 .parent{
   display: flex;
 }
@@ -521,4 +518,5 @@ button {
 .enfant{
   display: flex;
   flex-direction: column;
+  align-items: flex-end
 }
