@@ -170,7 +170,7 @@ button {
 }
 
 .align-center {
-  text-align: left;
+  text-align: center;
 }
 
 .align-right {
@@ -182,7 +182,7 @@ button {
 }
 
 .align-justify.align-center {
-  text-align-last: left;
+  text-align-last: center;
 }
 
 /**
@@ -296,20 +296,31 @@ button {
   height: 1px;
   border: none;
   background-color: #d9d9d9;
+  transform: rotate(10deg)
 }
 
-
+.separator::before {
+  content: "";
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  height: 1px;
+  border: none;
+  background-color: #d9d9d9;
+  transform :rotate(-20deg)
+}
 /**
 * honey-pot
 */
 
 .honey-pot-list {
   text-align: center;
+  display: flex; 
 }
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin: auto;
   text-align: center;
 }
 
@@ -346,7 +357,6 @@ button {
   font-size: 1.6em;
   font-weight: 200;
 }
-
 
 
 /**
@@ -416,6 +426,7 @@ button {
   min-width: 360px;
 }
 
+
 /**
 * news-list
 */
@@ -472,11 +483,17 @@ button {
 */
 .container.decouvrez-notre-librairie {
   text-align: center;
+  width: 1440px;
+  height: 2931px;
 }
+
 
 /**
 * index
 */
+
+
+
 .index-title {
   text-align: center;
   margin-bottom: 35px;
