@@ -13,6 +13,7 @@ body {
   text-align: center ;
   font-weight: 400;
   color: #303044;
+  max-width: 1200px;
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
@@ -526,6 +527,7 @@ button {
   }
 .chapo{
     width: 600px;
+    text-align: left;
     margin: auto;
     margin-bottom: 50px;
     font-family: WorkSans;
@@ -619,4 +621,14 @@ button {
   letter-spacing: normal;
   text-align: justify;
   color: #1a1a1a;
+}
+
+/**
+* notre-actualite
+*/
+
+.container.decouvrez-notre-librairie {
+  text-align: center;
+  width: 1440px;
+  height: 2931px;
 }
