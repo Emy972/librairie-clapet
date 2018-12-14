@@ -448,6 +448,9 @@ button {
   grid-template-rows: auto;
   margin-bottom: 35px;
 }
+.grande-liste{
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .news-list .news-list__news--main {
   grid-column: span 3;
@@ -632,3 +635,4 @@ button {
   width: 1440px;
   height: 2931px;
 }
+
