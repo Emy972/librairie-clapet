@@ -424,7 +424,6 @@ button {
 
 .news--main {
   padding-bottom: 35px;
-  border-bottom: 1px solid #b0b0c5;
   text-align:left;
 }
 .news--main .news__link {
@@ -460,6 +459,14 @@ button {
   grid-column: span 1;
 }
 
+.news--main {
+  grid-column: span 4;
+
+}
+
+.news--moyen {
+  grid-column: span 2;
+}
 
 /**
 * -----------
